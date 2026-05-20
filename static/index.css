@@ -1,0 +1,21 @@
+.main{
+background-image: url("https://res.cloudinary.com/dp1nxw4to/image/upload/v1779274903/ChatGPT_Image_May_20_2026_04_31_22_PM_ovkmul.png");
+
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-size: cover;      /* Forces image to fill the area */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat;
+}
+.input-container input{
+     border-radius: 9999px;
+     border-width:2px;
+     height: 20px;
+     background-color: #ffffff;
+     padding: 10px;
+     margin: 20px;
+  border: 4px solid #8A9A5B;
+}
