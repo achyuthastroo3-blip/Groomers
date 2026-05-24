@@ -1,0 +1,60 @@
+body{
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+#card-2{
+background-image: url("https://res.cloudinary.com/dp1nxw4to/image/upload/v1779612255/ChatGPT_Image_May_24_2026_02_13_37_PM_j30sly.png");
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-size: cover;     
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+.logo-measures{
+    height: 60px;
+    width:60px;
+    margin: 5px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px;
+    font-family: Arial;
+    text-decoration: underline;
+}
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px 30px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    box-sizing: border-box;
+    background-color:#AF804F;
+    height: 10%;
+    width: 100%;
+    z-index:1000;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+ul{
+    display:flex;
+    list-style:none;
+    gap:10px;
+}

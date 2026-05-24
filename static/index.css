@@ -19,26 +19,3 @@ background-image: url("https://res.cloudinary.com/dp1nxw4to/image/upload/v177927
      margin: 20px;
   border: 4px solid #8A9A5B;
 }
-
-#card-1{
-background-image: url("https://res.cloudinary.com/dp1nxw4to/image/upload/v1779536625/ChatGPT_Image_May_23_2026_05_13_28_PM_rdd5ns.png");
-    height: 100vh;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    background-size: cover;     
-  background-position: center; 
-  background-repeat: no-repeat;
-}
-#card-2{
-background-image: url("https://res.cloudinary.com/dp1nxw4to/image/upload/v1779537523/WhatsApp_Image_2026-05-21_at_8.24.22_PM_wifxnw.jpg");
-    height: 100vh;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    background-size: cover;     
-  background-position: center; 
-  background-repeat: no-repeat;
-}
