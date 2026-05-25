@@ -4,7 +4,7 @@ body{
     overflow-x:hidden;
 }
 #card-1{
-background-image: url("https://res.cloudinary.com/dtb8nawb3/image/upload/q_auto/f_auto/v1779643064/3_dqyggn.png");
+background-image: url("https://res.cloudinary.com/dtb8nawb3/image/upload/q_auto/f_auto/v1779688068/3_1_yogqjo.png");
     height: 100vh;
     width: 100%;
     justify-content: center;
@@ -37,15 +37,16 @@ li a {
     align-items:center;
     padding:10px 30px;
     position: fixed;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    box-sizing: border-box; /* ADD THIS */
-    background-color:#FFE5B4;
-    height: 10%;
-    width: 100%;
+    top: 10px;
+    left: 25px;
+    right:25px;
+    box-sizing: border-box;
+    background-color:#ecc59e;
+    height: 9%;
     z-index:1000;
+    border-radius: 20px;
 }
+
 
 .logo{
     display:flex;
@@ -57,4 +58,14 @@ ul{
     display:flex;
     list-style:none;
     gap:10px;
+}
+.twologo{
+
+height: 130px;
+    width:130px;
+    margin: 5px;
+    top: 0%;
+    left: 9%;
+    object-fit: cover;
+    position: relative;
 }
