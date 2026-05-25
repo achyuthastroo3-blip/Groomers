@@ -15,8 +15,8 @@ background-image: url("https://res.cloudinary.com/dtb8nawb3/image/upload/q_auto/
   background-repeat: no-repeat;
 }
 .logo-measures{
-    height: 40px;
-    width:40px;
+    height: 60px;
+    width:60px;
     margin: 5px;
     border-radius: 50%;
     object-fit: cover;
@@ -41,7 +41,7 @@ li a {
     right:25px;
     box-sizing: border-box;
     background-color:#ecc59e;
-    height: 9%;
+    height: 12%;
     z-index:1000;
     border-radius: 20px;
 }
@@ -60,8 +60,8 @@ ul{
 }
 .twologo{
 
-height: 130px;
-    width:130px;
+height: 180px;
+    width:180px;
     margin: 5px;
     top: 0%;
     left: 11%;
