@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="../static/index.css"> 
+<head>
+    <link rel="stylesheet" href="../static/index.css">
 </head>
-  <body>
-   <div class="main">
+
+<body>
+
+<div class="main">
     <div class="input-container">
 
-    <input type="text" placeholder="Email Id"><br/>
-    <input type="text" placeholder="Password">
+        <input type="text" placeholder="Email Id">
 
+        <div class="password-container">
+            <input type="password" id="password" placeholder="Password">
+            <span class="eye" onclick="togglePassword()">👁</span>
+        </div>
+
+    </div>
   </div>
-</div>
-  </body>
+
+</body>
 </html>

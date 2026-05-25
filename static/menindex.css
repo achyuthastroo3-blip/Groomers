@@ -29,7 +29,6 @@ li a {
     font-weight: bold;
     padding: 20px;
     font-family: Arial;
-    text-decoration: underline;
 }
 .navbar{
     display:flex;
