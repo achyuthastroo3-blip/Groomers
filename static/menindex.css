@@ -15,8 +15,8 @@ background-image: url("https://res.cloudinary.com/dtb8nawb3/image/upload/q_auto/
   background-repeat: no-repeat;
 }
 .logo-measures{
-    height: 60px;
-    width:60px;
+    height: 40px;
+    width:40px;
     margin: 5px;
     border-radius: 50%;
     object-fit: cover;
@@ -65,7 +65,7 @@ height: 130px;
     width:130px;
     margin: 5px;
     top: 0%;
-    left: 9%;
+    left: 11%;
     object-fit: cover;
     position: relative;
 }
