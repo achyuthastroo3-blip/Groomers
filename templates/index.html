@@ -7,16 +7,33 @@
 <body>
 
 <div class="main">
+    <form method="post">
     <div class="input-container">
-
-        <input type="text" placeholder="Email Id">
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                {% for msg in messages %}
+                    <p style="
+                    color:#c0392b;
+                    text-align:center;
+                    font-size:15px;
+                    margin-top:15px;
+                    margin-bottom:10px;
+                    font-weight:bold;
+                    ">
+                        {{ msg }}
+                    </p>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+        <input type="text" placeholder="Email Id" name="email">
 
         <div class="password-container">
-            <input type="password" id="password" placeholder="Password">
+            <input type="password" id="password" placeholder="Password" name="password">
             <span class="eye"">👁</span>
         </div>
 
     </div>
+    </form>
   </div>
 
 </body>
