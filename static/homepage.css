@@ -1,0 +1,70 @@
+body{
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+#card-1{
+background-image: url("https://res.cloudinary.com/dtb8nawb3/image/upload/q_auto/f_auto/v1779688052/2_1_afaaip.png");
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-size: cover;     
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+.logo-measures{
+    height: 60px;
+    width:60px;
+    margin: 5px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px;
+    font-family: Arial;
+}
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px 30px;
+    position: fixed;
+    top: 10px;
+    left: 25px;
+    right:25px;
+    box-sizing: border-box;
+    background-color:#ecc59e;
+    height: 12%;
+    z-index:1000;
+    border-radius: 20px;
+}
+
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+ul{
+    display:flex;
+    list-style:none;
+    gap:10px;
+}
+.twologo{
+
+height: 180px;
+    width:180px;
+    margin: 5px;
+    top: 0%;
+    left: 11%;
+    object-fit: cover;
+    position: relative;
+}
