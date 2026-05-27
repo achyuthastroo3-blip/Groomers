@@ -68,3 +68,24 @@ height: 180px;
     object-fit: cover;
     position: relative;
 }
+#men{
+   height: 130px;
+    width:130px;
+    margin: 5px;
+    top: 12%;
+    left: 4%;
+    object-fit: cover;
+    position:absolute; 
+}
+#women{
+   height: 120px;
+    width:120px;
+    margin: 5px;
+    top:12%;
+    right: 4%;
+    object-fit: cover;
+    position:absolute; 
+}
+
+
+
