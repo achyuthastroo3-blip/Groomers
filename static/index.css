@@ -16,7 +16,7 @@
     width: 200px;
     background-color: #ffffff;
     padding: 10px;
-    margin: 15px;
+    margin: 10px;
     border: 4px solid #4a2f2f;
     outline: none;
     transform: translateY(-50px);
@@ -41,15 +41,15 @@
     color: white;
     background-color: #4a2f2f;
     border: 4px solid #4a2f2f;
-    position: relative;
-    left: 26%;
+    position: absolute;
+    left: 46%;
+    bottom: 37%;
     border-radius: 16px;
     margin: 10px;
     font-weight: bold;
-    transform: translateY(-40px);
 }
 #createacc{
-transform: translateY(-40px);
-left: 70%;
- position: relative;
+bottom: 38%;
+left: 60%;
+ position: absolute;
 }
