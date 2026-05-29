@@ -8,31 +8,27 @@
 
 <div class="main">
     <form method="post">
-    <div class="input-container">
+    <div class="flash-message">
         {% with messages = get_flashed_messages() %}
             {% if messages %}
                 {% for msg in messages %}
-                    <p style="
-                    color:#c0392b;
-                    text-align:center;
-                    font-size:15px;
-                    margin-top:15px;
-                    margin-bottom:10px;
-                    font-weight:bold;
-                    ">
-                        {{ msg }}
-                    </p>
+
+                    <p>{{ msg }}</p>
+
                 {% endfor %}
             {% endif %}
         {% endwith %}
-        <input type="text" placeholder="Email Id" name="email">
+    </div>
+    <div class="input-container">
+        <input type="text" placeholder="Email Id" name="email" value="{{ email }}">
 
         <div class="password-container">
             <input type="password" id="password" placeholder="Password" name="password">
             <span class="eye"">👁</span>
         </div>
+        
         <button id="buut" type="submit">Submit</button>
-        <a href="#" id ="createacc">create account</a>
+        <a href="/createaccount" id ="createacc">create account</a>
     </div>
     </form>
   </div>
