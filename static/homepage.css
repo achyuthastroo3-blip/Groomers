@@ -1,3 +1,4 @@
+wait let me finish 
 body{
     margin:0;
     padding:0;
@@ -11,8 +12,11 @@ background-image: url("https://res.cloudinary.com/dtb8nawb3/image/upload/q_auto/
     align-items: center;
     display: flex;
     background-size: cover;     
-  background-position: center; 
-  background-repeat: no-repeat;
+    background-position: center; 
+    background-repeat: no-repeat;
+     margin: 0;
+    padding: 0;
+    padding-bottom: 430px;
 }
 .logo-measures{
     height: 60px;
@@ -30,19 +34,16 @@ li a {
     padding: 20px;
     font-family: Arial;
 }
+
 .navbar{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:10px 30px;
+    padding:10px 20px;
     position: fixed;
-    top: 10px;
-    left: 25px;
-    right:25px;
     box-sizing: border-box;
     background-color:#ecc59e;
-    height: 12%;
-    z-index:1000;
+    height: 4%;
     border-radius: 20px;
 }
 
@@ -85,6 +86,18 @@ height: 180px;
     right: 4%;
     object-fit: cover;
     position:absolute; 
+}
+.carousel-item{
+    height: 350px !important;
+}
+
+.carousel-item img{
+    height: 350px !important;
+}
+
+#carouselExampleAutoplaying{
+    margin-top: 0;
+    width: 100%;
 }
 
 
