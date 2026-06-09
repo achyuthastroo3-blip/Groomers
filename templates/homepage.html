@@ -1,65 +1,160 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="../static/homepage.css"> 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"> 
+<head>
+    <link rel="stylesheet" href="../static/homepage.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-  <body>
 
+<body>
+
+    <!-- NAVBAR -->
 
     <nav class="navbar">
 
-        <div class="logo">
-            <img src="https://res.cloudinary.com/dtb8nawb3/image/upload/q_auto/f_auto/v1779162328/groomers_l3tten.png" alt="logo" class="logo-measures"/>
+        <div class="logo-section">
+            <img src="https://res.cloudinary.com/dtb8nawb3/image/upload/q_auto/f_auto/v1779162328/groomers_l3tten.png"
+                 class="logo-measures">
+
+            <div class="brand">
+                <h2>NIAT</h2>
+                <p>Threads of Tradition</p>
+            </div>
         </div>
-        <img src="https://res.cloudinary.com/dtb8nawb3/image/upload/e_background_removal/Flower_tp88gg.png" class="twologo"/>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Contact us</a></li>
-            <li><a href="#">Cart</a></li>
+
+        <ul class="nav-links">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">COLLECTIONS</a></li>
+            <li><a href="#">NEW ARRIVALS</a></li>
+            <li><a href="#">OFFERS</a></li>
+            <li><a href="#">ABOUT US</a></li>
         </ul>
+
     </nav>
 
 
 
-    
-    
-<div id="card-1">
-      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-  <img src="https://res.cloudinary.com/dtb8nawb3/image/upload/q_auto/f_auto/v1780291249/9_kmyvyh.png"
-       class="d-block w-100"
-       alt="Mandala Design">
-</div>
-   <div class="carousel-item active">
-  <img src="https://res.cloudinary.com/dtb8nawb3/image/upload/q_auto/f_auto/v1780291277/10_nhcugn.png "
-       class="d-block w-100"
-       alt="Mandala Design">
-</div>
-    <div class="carousel-item active">
-  <img src="https://res.cloudinary.com/dtb8nawb3/image/upload/q_auto/f_auto/v1780291241/8_j2bana.png"
-       class="d-block w-100"
-       alt="Mandala Design">
-</div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
+    <!-- HERO SECTION -->
+
+    <section class="hero">
+
+        <div id="carouselExampleAutoplaying"
+             class="carousel slide"
+             data-bs-ride="carousel">
+
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <img src="https://res.cloudinary.com/dtb8nawb3/image/upload/q_auto/f_auto/v1780291249/9_kmyvyh.png"
+                         class="d-block w-100">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="https://res.cloudinary.com/dtb8nawb3/image/upload/q_auto/f_auto/v1780291277/10_nhcugn.png"
+                         class="d-block w-100">
+                </div>
+
+                <!-- Developers Slide Last -->
+
+                <div class="carousel-item">
+                    <img src="https://res.cloudinary.com/dtb8nawb3/image/upload/q_auto/f_auto/v1780291241/8_j2bana.png"
+                         class="d-block w-100">
+                </div>
+
+            </div>
+
+            <button class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+
+                <span class="carousel-control-prev-icon"></span>
+
+            </button>
+
+            <button class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+
+                <span class="carousel-control-next-icon"></span>
+
+            </button>
+
+        </div>
+
+    </section>
 
 
-</div>
-    
-</div>
 
-    
+    <!-- FEATURES -->
+
+    <section class="features">
+
+        <div class="feature">
+            <h5>Premium Quality</h5>
+            <p>Finest fabrics & craftsmanship</p>
+        </div>
+
+        <div class="feature">
+            <h5>Free Shipping</h5>
+            <p>Orders above ₹999</p>
+        </div>
+
+        <div class="feature">
+            <h5>Easy Returns</h5>
+            <p>Hassle free returns</p>
+        </div>
+
+        <div class="feature">
+            <h5>Secure Payments</h5>
+            <p>100% Secure checkout</p>
+        </div>
+
+    </section>
+
+
+
+    <!-- COLLECTIONS -->
+
+    <section class="collections">
+
+        <h4>EXPLORE OUR WORLD</h4>
+
+        <h1>Shop By Collection</h1>
+
+        <div class="cards">
+
+            <div class="collection-card">
+
+                <img src="YOUR_MENS_IMAGE">
+
+                <div class="card-content">
+                    <h2>Men's Heritage</h2>
+                    <p>Timeless styles for modern men</p>
+
+                    <button>EXPLORE MEN →</button>
+                </div>
+
+            </div>
+
+            <div class="collection-card">
+
+                <img src="YOUR_WOMENS_IMAGE">
+
+                <div class="card-content">
+                    <h2>Women's Elegance</h2>
+                    <p>Grace, tradition & timeless beauty</p>
+
+                    <button>EXPLORE WOMEN →</button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
-</html>
 
+</body>
+</html>
