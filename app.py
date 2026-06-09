@@ -26,6 +26,9 @@ def login():
 
         email = request.form["email"]
         password = request.form["password"]
+        if email == "" or password == "":
+            flash("Please fill all fields")
+            return redirect("/")
 
         conn = sqlite3.connect("shop.db")
         cur = conn.cursor()
@@ -44,7 +47,10 @@ def login():
 
         else:
             flash("Invalid email or password")
-            return redirect("/")
+            return render_template(
+                "index.html",
+                email=email
+            )
 
     return render_template("index.html")
 
